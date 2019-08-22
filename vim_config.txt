@@ -1,0 +1,28 @@
+inoremap jk <Esc>
+
+set ruler
+
+set number
+
+set scrolloff=5
+
+set ai
+
+set si
+
+set tabstop=4
+
+syntax on
+
+nnoremap <Left> <nop>
+nnoremap <Right> <nop>
+nnoremap <Up> <nop>
+noremap <Down> <nop>
+
+
+inoremap <Left> <nop>
+inoremap <Right> <nop>
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+
+set shiftwidth=4
