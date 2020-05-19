@@ -1,28 +1,42 @@
-inoremap jk <Esc>
+"ESC repmap
+c>
 
 set ruler
 
+"set number
 set number
+
 
 set scrolloff=5
 
+"set auto identation"
 set ai
 
+"set smart identation"
 set si
 
 set tabstop=4
 
 syntax on
 
+"disable arrow keys in normal mode
 nnoremap <Left> <nop>
 nnoremap <Right> <nop>
 nnoremap <Up> <nop>
 noremap <Down> <nop>
 
 
+"disable arrow keys in insert mode
 inoremap <Left> <nop>
 inoremap <Right> <nop>
 inoremap <Up> <nop>
 inoremap <Down> <nop>
 
 set shiftwidth=4
+
+
+"vim paste
+nnoremap <F2> :set invpaste paste?<CR>
+imap <F2> <C-O>:set invpaste paste?<CR>
+set pastetoggle=<F2>
+noremap 
