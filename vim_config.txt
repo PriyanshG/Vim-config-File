@@ -1,5 +1,5 @@
 "ESC repmap
-c>
+imap jk <Esc>
 
 set ruler
 
@@ -39,4 +39,4 @@ set shiftwidth=4
 nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
-noremap 
+"noremap 
