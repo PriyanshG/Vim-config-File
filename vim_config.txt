@@ -3,10 +3,6 @@ imap jk <Esc>
 
 set ruler
 
-"set number
-set number
-
-
 set scrolloff=5
 
 "set auto identation"
@@ -40,3 +36,13 @@ nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
 "noremap 
+
+"set hybrid numbering
+set number relativenumber
+
+"toggle number on insert mode  
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
