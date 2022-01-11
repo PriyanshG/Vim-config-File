@@ -1,5 +1,4 @@
 # Vim-config-File
-# hactoberfest
 This is my personal configuration of vim.  
 Step 1. Open bash and write vim .vimrc  
 Step 2. Paste all the content of vim_config file to it.  
